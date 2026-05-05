@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lists</title>
+  <style>
+    body {
+      background-color: #fff8f0;
+      font-family: Georgia, serif;
+      color: #2b2b2b;
+      margin: 30px 60px;
+    }
+
+    .navbar {
+      background-color: #ffd6a5;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .navbar a {
+      margin-right: 14px;
+      color: #7a3b00;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    h1 { color: #c94f00; text-align: center; }
+    h2 { color: #7a3b00; }
+
+    p { line-height: 1.8; max-width: 700px; }
+
+    li { line-height: 2; }
+
+    dt { color: #a05200; }
+
+    .circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #ffd6a5;
+      color: #7a3b00;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .footer-line {
+      text-align: center;
+      color: #999;
+      font-size: 13px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="topics.html">Topics</a>
+  <a href="details.html">Details</a>
+  <a href="formatting.html">Formatting</a>
+  <a href="lists.html">Lists</a>
+  <a href="textitems.html">Text Items</a>
+</div>
+
+<h1>HTML Lists</h1>
+
+<hr>
+
+<p>Here are the three types of lists I have learned in HTML.</p>
+
+<hr>
+
+<h2>1. Ordered List</h2>
+
+<p>This list uses numbers or letters. I used three different styles below.</p>
+
+<br>
+
+<p><b>Numbers:</b></p>
+<ol type="1">
+  <li>Open VS Code</li>
+  <li>Create a new file</li>
+  <li>Save it as index.html</li>
+  <li>Write your HTML code</li>
+  <li>Open it in a browser</li>
+</ol>
+
+<br>
+
+<p><b>Capital letters:</b></p>
+<ol type="A">
+  <li>HTML - Structure</li>
+  <li>CSS - Styling</li>
+  <li>JavaScript - Interactivity</li>
+</ol>
+
+<br>
+
+<p><b>Roman numerals:</b></p>
+<ol type="I">
+  <li>First semester courses</li>
+  <li>Second semester courses</li>
+  <li>Third semester courses</li>
+</ol>
+
+<hr>
+
+<h2>2. Unordered List</h2>
+
+<p>This list uses bullet points. The shape of the bullet can be changed.</p>
+
+<br>
+
+<p><b>Disc:</b></p>
+<ul type="disc">
+  <li>Problem Solving</li>
+  <li>Web Design</li>
+  <li>Physics Practical</li>
+</ul>
+
+<br>
+
+<p><b>Square:</b></p>
+<ul type="square">
+  <li>Violin practice</li>
+  <li>Afrobeats music</li>
+  <li>Reading and studying</li>
+</ul>
+
+<br>
+
+<p><b>Circle:</b></p>
+<ul type="circle">
+  <li>Babcock University</li>
+  <li>Ilishan-Remo</li>
+  <li>Ogun State</li>
+</ul>
+
+<hr>
+
+<h2>3. Definition List</h2>
+
+<p>A definition list shows words and what they mean. I used it as an HTML glossary.</p>
+
+<br>
+
+<dl id="glossary">
+  <dt><b>HTML</b></dt>
+  <dd>HyperText Markup Language. The language used to build web pages.</dd>
+
+  <dt><b>Tag</b></dt>
+  <dd>A keyword in angle brackets that tells the browser what to do.</dd>
+
+  <dt><b>Attribute</b></dt>
+  <dd>Extra information added inside a tag to change how it behaves.</dd>
+
+  <dt><b>Browser</b></dt>
+  <dd>A program like Chrome or Firefox that reads and displays web pages.</dd>
+
+  <dt><b>DOCTYPE</b></dt>
+  <dd>A line at the top of every HTML file that tells the browser which version of HTML is being used.</dd>
+</dl>
+
+<hr>
+
+<p class="footer-line">
+  Babcock University &nbsp; | &nbsp; BU-SEN 102 &nbsp; | &nbsp; 2026
+  <br><br>
+  <span class="circle">T</span> &nbsp; Toyosi &nbsp; &copy; 2026
+</p>
+
+</body>
+</html>

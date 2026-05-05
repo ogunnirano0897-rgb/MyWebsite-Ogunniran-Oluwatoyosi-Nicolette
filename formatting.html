@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formatting</title>
+  <style>
+    body {
+      background-color: #dff0f7;
+      font-family: Georgia, serif;
+      color: #2b2b2b;
+      margin: 30px 60px;
+    }
+
+    .navbar {
+      background-color: #ffd6a5;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .navbar a {
+      margin-right: 14px;
+      color: #7a3b00;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    h1 { color: #c94f00; text-align: center; }
+    h2 { color: #7a3b00; }
+    h3 { color: #a05200; }
+
+    p { line-height: 1.8; max-width: 700px; }
+
+    pre {
+      background-color: #c2e0ef;
+      padding: 12px;
+      max-width: 400px;
+    }
+
+    .circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #ffd6a5;
+      color: #7a3b00;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .footer-line {
+      text-align: center;
+      color: #999;
+      font-size: 13px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- I changed the background color on this page to show it is possible with HTML -->
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="topics.html">Topics</a>
+  <a href="details.html">Details</a>
+  <a href="formatting.html">Formatting</a>
+  <a href="lists.html">Lists</a>
+  <a href="textitems.html">Text Items</a>
+</div>
+
+<h1>HTML Formatting</h1>
+
+<hr>
+
+<p>This page shows different ways to format content in HTML without using CSS.
+I will demonstrate preformatted text, blank spaces, a div element, and
+background color.</p>
+
+<hr>
+
+<h2>1. Preformatted Text</h2>
+
+<p>The pre tag keeps all spacing and line breaks exactly as you type them.
+It is useful for showing code or any text where spacing matters.</p>
+
+<br>
+
+<pre>
+Name: Oluwatoyosi
+Level: 100 Level
+Department: Computer Science
+University: Babcock University
+Semester: Second Semester
+</pre>
+
+<hr>
+
+<h2>2. Blank Spaces Using &amp;nbsp;</h2>
+
+<p>Normal spaces in HTML collapse into one space. To add extra spaces
+you use the &amp;nbsp; character which stands for non-breaking space.</p>
+
+<br>
+
+<p>Without nbsp: First &nbsp; Middle &nbsp; Last</p>
+<p>With nbsp: First &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Middle &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last</p>
+
+<br>
+
+<p>Course: &nbsp;&nbsp;&nbsp; Web Design and Development</p>
+<p>Code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BU-SEN 102</p>
+<p>Units: &nbsp;&nbsp;&nbsp;&nbsp; 3 Units</p>
+
+<hr>
+
+<h2>3. A Div Element</h2>
+
+<p>A div is a container that groups content together. On its own it does
+nothing special but it can hold other elements and be styled later.</p>
+
+<br>
+
+<div id="myDiv" title="This is a div container" align="center" style="background-color:#fdefd8; padding:16px; border:1px solid #ffd6a5;">
+  <h3>Inside a Div</h3>
+  <p>This paragraph and heading are both inside a div element.
+  The div is grouping them together as one block of content.</p>
+</div>
+
+<hr>
+
+<h2>4. Background Color</h2>
+
+<p>The background color of this page is set to <b>lightblue</b> using
+the bgcolor attribute in the body tag. You can see it is different from
+the other pages on this site which use lightyellow.</p>
+
+<br>
+
+<p>To set a background color in HTML you write:</p>
+<p><b>&lt;body bgcolor="lightblue"&gt;</b></p>
+
+<hr>
+
+<p align="center" class="footer-line">
+  Babcock University &nbsp; | &nbsp; BU-SEN 102 &nbsp; | &nbsp; 2026
+  <br><br>
+  <span class="circle">T</span> &nbsp; Toyosi &nbsp; &copy; 2026
+</p>
+
+</body>
+</html>
